@@ -74,8 +74,14 @@ public class GameManager : MonoBehaviour {
 				EndGame ();
 			} else { // game playing state, so update the timer
 				currentTime -= Time.deltaTime;
-				mainTimerDisplay.text = currentTime.ToString ("0.00");				
+				SetMainTimerDisplayText(currentTime.ToString ("0.00"));				
 			}
+		}
+	}
+
+	void SetMainTimerDisplayText(string text) {
+		if (mainTimerDisplay) {
+			mainTimerDisplay.text = text;
 		}
 	}
 
@@ -84,7 +90,7 @@ public class GameManager : MonoBehaviour {
 		gameIsOver = true;
 
 		// repurpose the timer to display a message to the player
-		mainTimerDisplay.text = "GAME OVER";
+		SetMainTimerDisplayText("GAME OVER");
 
 		// activate the gameOverScoreOutline gameObject, if it is set 
 		if (gameOverScoreOutline)
@@ -107,7 +113,7 @@ public class GameManager : MonoBehaviour {
 		gameIsOver = true;
 
 		// repurpose the timer to display a message to the player
-		mainTimerDisplay.text = "LEVEL COMPLETE";
+		SetMainTimerDisplayText("LEVEL COMPLETE");
 
 		// activate the gameOverScoreOutline gameObject, if it is set 
 		if (gameOverScoreOutline)
@@ -137,7 +143,7 @@ public class GameManager : MonoBehaviour {
 			currentTime = 0.0f;
 
 		// update the text UI
-		mainTimerDisplay.text = currentTime.ToString ("0.00");
+		SetMainTimerDisplayText(currentTime.ToString ("0.00"));
 	}
 
 	// public function that can be called to restart the game
