@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 
-	void EndGame() {
+	public void EndGame() {
 		// game is over
 		gameIsOver = true;
 
