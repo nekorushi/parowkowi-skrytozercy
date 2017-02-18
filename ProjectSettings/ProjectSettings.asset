@@ -541,14 +541,14 @@ PlayerSettings:
   cloudServicesEnabled:
     Analytics: 0
     Build: 0
-    Collab: 0
+    Collab: 1
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 71f3c7e5-1d35-4ba8-9556-f7d37676cb27
+  projectName: parowkowi-v2
+  organizationId: pawel-1792753
   cloudEnabled: 0

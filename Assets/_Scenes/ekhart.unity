@@ -95,61 +95,58 @@ NavMeshSettings:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 505320304}
---- !u!1 &130852790
-GameObject:
+--- !u!1001 &394078806
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 130852791}
-  - component: {fileID: 130852792}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &130852791
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 130852790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &130852792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 130852790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f437c3b0728da9f4a8a1fdc8f6e434a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  canBeatLevel: 0
-  beatLevelScore: 0
-  startTime: 5
-  mainScoreDisplay: {fileID: 1859797495}
-  mainTimerDisplay: {fileID: 1859797495}
-  gameOverScoreOutline: {fileID: 0}
-  musicAudioSource: {fileID: 0}
-  gameIsOver: 0
-  playAgainButtons: {fileID: 0}
-  playAgainLevelToLoad: ekhart
-  nextLevelButtons: {fileID: 0}
-  nextLevelToLoad: 
-  resetLevelButtons: {fileID: 0}
-  resetLevelToLoad: 
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031389482545198, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114284740507245856, guid: 9053d1e79d1f99b478d721fbadb170bc,
+        type: 2}
+      propertyPath: mainScoreDisplay
+      value: 
+      objectReference: {fileID: 1859797495}
+    - target: {fileID: 114284740507245856, guid: 9053d1e79d1f99b478d721fbadb170bc,
+        type: 2}
+      propertyPath: mainTimerDisplay
+      value: 
+      objectReference: {fileID: 1859797495}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9053d1e79d1f99b478d721fbadb170bc, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &505320304
 Prefab:
   m_ObjectHideFlags: 0
