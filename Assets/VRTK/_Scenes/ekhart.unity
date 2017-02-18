@@ -201,6 +201,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -213,11 +217,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 25a5a9ff1549aab43acb06eea11b9509, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 25a5a9ff1549aab43acb06eea11b9509, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 25a5a9ff1549aab43acb06eea11b9509, type: 3}
       propertyPath: m_LocalPosition.z
@@ -243,6 +247,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 25a5a9ff1549aab43acb06eea11b9509, type: 3}
+      propertyPath: m_Name
+      value: Hand
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25a5a9ff1549aab43acb06eea11b9509, type: 3}
   m_IsPrefabParent: 0
@@ -256,13 +264,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535738901}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 246cc59c7a84ea44f87f6b70acfe30c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 72bd71962f4bc8b4bbf9d98efe6f7fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
+  minDist: 1
   target: {fileID: 22244476}
-  offset: {x: 0, y: 7.5, z: 0}
 --- !u!1 &855912061
 GameObject:
   m_ObjectHideFlags: 0
